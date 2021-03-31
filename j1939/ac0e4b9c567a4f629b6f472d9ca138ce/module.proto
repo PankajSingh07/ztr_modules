@@ -139,6 +139,7 @@ message Config {
 
 		// Mask used to feed value into filter.
 		uint32 bitmask = 2;
+		string hello = 3;
 	};
 
 	message MemoryAccess {
